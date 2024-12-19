@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const axios from 'axios' 
+const axios = require('axios')
 const { ragBot,
   degreeGuru,
   pinecone,
