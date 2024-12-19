@@ -1,6 +1,5 @@
 const axios = require("axios")
 const cheerio = require('cheerio')
-const axios = require('axios')
 const { JSDOM } = require('jsdom')
 const request = require('request')
 const fetch = require('node-fetch')
