@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
+  <meta name="description" content="RYX APIs - Layanan API untuk bot hosting" />
   <meta name="author" content="Ryxx" />
   <title>RYX APIs</title>
   <link rel="icon" href="https://telegra.ph/file/f9df5ee4af78f47d9c31a.png" />
@@ -28,7 +28,6 @@
 
     .sidebar .nav-item .nav-link {
       color: #000000;
-      /* Mengubah warna teks sidebar menjadi hitam */
     }
 
     .sidebar .nav-item .nav-link:hover {
@@ -39,38 +38,41 @@
 
 <body id="page-top">
   <div id="wrapper">
-<!-- Sidebar -->
-<ul class="navbar-nav sidebar accordion" id="accordionSidebar">
-  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
-    <div class="sidebar-brand-text mx-3">RYX APIs</div>
-  </a>
-  <hr class="sidebar-divider my-0" />
-  <li class="nav-item active">
-    <a class="nav-link" href="#">
-      <i class="fas fa-fw fa-home"></i>
-      <span>Home</span></a>
-  </li>
-  <li class="nav-item active">
-    <a class="nav-link" href="#">
-      <i class="fas fa-fw fa-comment"></i>
-      <span>Chatbot</span></a>
-  </li>
-  <li class="nav-item active">
-    <a class="nav-link" href="#">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Dashboard</span></a>
-  </li>
-  <li class="nav-item active">
-    <a class="nav-link" href="#" id="changelog">
-      <i class="fas fa-fw fa-code"></i>
-      <span>Changelog</span></a>
-  </li>
-  <hr class="sidebar-divider" />
-  <!-- Feature Sections -->
-</ul>
-<!-- Sidebar -->
-    
+    <!-- Sidebar -->
+    <ul class="navbar-nav sidebar accordion" id="accordionSidebar">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+        <div class="sidebar-brand-text mx-3">RYX APIs</div>
+      </a>
+      <hr class="sidebar-divider my-0" />
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          <i class="fas fa-fw fa-home"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          <i class="fas fa-fw fa-comment"></i>
+          <span>Chatbot</span>
+        </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#" id="changelog">
+          <i class="fas fa-fw fa-code"></i>
+          <span>Changelog</span>
+        </a>
+      </li>
+      <hr class="sidebar-divider" />
+
+      <!-- Features -->
       <div class="sidebar-heading">Features</div>
+      <!-- Artificial Intelligence -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAI" aria-expanded="true" aria-controls="collapseAI">
           <i class="fas fa-fw fa-search"></i>
@@ -86,6 +88,7 @@
           </div>
         </div>
       </li>
+      <!-- Downloader -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDownloader" aria-expanded="true" aria-controls="collapseDownloader">
           <i class="fas fa-fw fa-download"></i>
@@ -100,7 +103,7 @@
           </div>
         </div>
       </li>
-      <!-- Photooxy Section -->
+      <!-- Photooxy -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePhotooxy" aria-expanded="true" aria-controls="collapsePhotooxy">
           <i class="fas fa-fw fa-image"></i>
@@ -109,18 +112,11 @@
         <div id="collapsePhotooxy" class="collapse" aria-labelledby="headingPhotooxy" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Photooxy Features</h6>
-<a class="collapse-item" href="/photooxy/shadow?text=YOUR_TEXT">Shadow</a>
-<a class="collapse-item" href="/photooxy/romantic?text=YOUR_TEXT">Romantic</a>
-<a class="collapse-item" href="/photooxy/smoke?text=YOUR_TEXT">Smoke</a>
-<a class="collapse-item" href="/photooxy/burnpapper?text=YOUR_TEXT">Burn Papper</a>
-<a class="collapse-item" href="/photooxy/naruto?text=YOUR_TEXT">Naruto</a>
-<a class="collapse-item" href="/photooxy/lovemsg?text=YOUR_TEXT">Love Message</a>
-<a class="collapse-item" href="/photooxy/msggrass?text=YOUR_TEXT">Message Grass</a>
-<a class="collapse-item" href="/photooxy/glitch?text=YOUR_TEXT">Glitch</a>
-<a class="collapse-item" href="/photooxy/doubleheart?text=YOUR_TEXT">Double Heart</a>
-<a class="collapse-item" href="/photooxy/coffeecup?text=YOUR_TEXT">Coffee Cup</a>
-<a class="collapse-item" href="/photooxy/lovetext?text=YOUR_TEXT">Love</a>
-<a class="collapse-item" href="/photooxy/butterfly?text=YOUR_TEXT">Butterfly</a>
+            <a class="collapse-item" href="/photooxy/shadow?text=YOUR_TEXT">Shadow</a>
+            <a class="collapse-item" href="/photooxy/romantic?text=YOUR_TEXT">Romantic</a>
+            <a class="collapse-item" href="/photooxy/smoke?text=YOUR_TEXT">Smoke</a>
+            <a class="collapse-item" href="/photooxy/burnpapper?text=YOUR_TEXT">Burn Paper</a>
+            <a class="collapse-item" href="/photooxy/naruto?text=YOUR_TEXT">Naruto</a>
           </div>
         </div>
       </li>
@@ -140,60 +136,49 @@
             <div class="topbar-divider d-none d-sm-block"></div>
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img class="img-profile rounded-circle" src="https://i.pinimg.com/736x/4b/7e/27/4b7e27dde43758a0544fe9abf6b180b9.jpg" style="max-width: 60px" />
+                <img class="img-profile rounded-circle" src="https://i.pinimg.com/736x/4b/7e/27/4b7e27dde43758a0544fe9abf6b180b9.jpg" style="max-width: 60px" alt="User Profile" />
               </a>
             </li>
           </ul>
         </nav>
         <!-- Topbar -->
 
-          <!-- Welcome Text -->
-          <div class="card mb-4">
-            <div class="card-body">
-              <ul>
-              <p>Selamat Datang Di RYX APIs! API Kami menyediakan berbagai fitur yang berguna dan bermanfaat untuk kebutuhan bot hosting anda. Gunakan Api Kami dengan bijak Dan Jangan Ragu untuk Memberikan Masukan & saran dalam info Contact Kami! Terimakasih telah memilih Layanan kami!<p>
-              </ul>
-            </div>
+        <!-- Welcome Text -->
+        <div class="card mb-4">
+          <div class="card-body">
+            <p>Selamat Datang Di RYX APIs! API Kami menyediakan berbagai fitur yang berguna dan bermanfaat untuk kebutuhan bot hosting Anda. Gunakan API Kami dengan bijak dan jangan ragu untuk memberikan masukan & saran melalui info kontak kami! Terima kasih telah memilih layanan kami!</p>
           </div>
-
-          <!-- Thanks To Section -->
-          <div class="card mb-4">
-            <div class="card-body">
-              <strong><i class="bi bi-people-fill"></i> Thanks To:</strong>
-              <div class="row">
-                <div class="col-auto">
-                  <ul>
-                    <li>Allah SWT.</li>
-                    <li>Parents</li>
-                    <li>Bang Putu.</li>
-                    <li>Bang Acez.</li>
-                    <li>Ryx.</li>
-                    <li>Arkan (partner)</li>
-                    <li>ExpressJS, Passport, Vercel</li>
-                    <li>Everyone who shared this API</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-        <!-- Container Fluid -->
 
-        <!-- Footer -->
-        <footer class="sticky-footer bg-white">
-          <div class="container my-auto">
-            <div class="copyright text-center my-auto">
-              <span>&copy;
-                <h>2024 Ryx APIs, All rights reserved<h>
-              </span>
-            </div>
+        <!-- Thanks To Section -->
+        <div class="card mb-4">
+          <div class="card-body">
+            <strong>Thanks To:</strong>
+            <ul>
+              <li>Allah SWT.</li>
+              <li>Parents</li>
+              <li>Bang Putu</li>
+              <li>Bang Acez</li>
+              <li>Ryx</li>
+              <li>Arkan (Partner)</li>
+              <li>ExpressJS, Passport, Vercel</li>
+              <li>Everyone who shared this API</li>
+            </ul>
           </div>
-        </footer>
-        <!-- Footer -->
-
+        </div>
       </div>
-      <!-- Main Content -->
+      <!-- Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>&copy; 2024 RYX APIs, All rights reserved</span>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer -->
+
     </div>
     <!-- Content Wrapper -->
   </div>
@@ -203,6 +188,7 @@
     <i class="fas fa-angle-up"></i>
   </a>
 
+  <!-- Scripts -->
   <script src="https://indrijunanda.github.io/RuangAdmin/vendor/jquery/jquery.min.js"></script>
   <script src="https://indrijunanda.github.io/RuangAdmin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://indrijunanda.github.io/RuangAdmin/vendor/jquery-easing/jquery.easing.min.js"></script>
