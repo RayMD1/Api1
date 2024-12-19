@@ -10,6 +10,12 @@ const { ragBot,
   GPT,
   luminai
 } = require("./api/ai.js")
+const { pinterest,
+ igdl,
+ spotify,
+ tiktok,
+ joox
+} = require("./api/dl.js")
 const { Shadow,
   Romantic,
   Smoke,
