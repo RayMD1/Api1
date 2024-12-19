@@ -72,6 +72,13 @@ async function spotify(url){
 const res=await fetch('https://api.spotify-downloader.com/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'link='+url})
 return res.json();
 }
+
+async function tiktok(url) {
+  let tikwm = `https://www.tikwm.com/api/?url=${url}?hd=1`;
+  let response = await (await fetch(tikwm)).json();
+  return response;
+}
+
 function joox(query) {
     return new Promise((resolve, reject) => {
         const time = Math.floor(new Date() / 1000)
@@ -118,5 +125,6 @@ module.exports = {
  pinterest,
  igdl,
  spotify,
+ tiktok,
  joox
 }
